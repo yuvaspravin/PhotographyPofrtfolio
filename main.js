@@ -83,18 +83,8 @@ ScrollReveal().reveal(".about__container img", {
   delay: 1500,
 });
 
-ScrollReveal().reveal(".service__container .section__header", {
-  ...scrollRevealOption,
-});
-ScrollReveal().reveal(".service__container .section__description", {
-  ...scrollRevealOption,
-  delay: 500,
-});
-ScrollReveal().reveal(".service__card", {
-  duration: 1000,
-  delay: 1000,
-  interval: 500,
-});
+
+
 
 
 
