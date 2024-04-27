@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotographyPortfolio.com</title>
+    <link rel="stylesheet" href="PhotographyPortfolio.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <header class="header" id="home">
+        <nav>
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">
+                PhotographyPortfolio.com
+              </a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+         
+            
+          <ul class="nav__links" id="nav-links">
+            <div>
+                <li class="nav__logo">
+                    <a href="#">
+                     PhotographyPortfolio.com
+                    </a>
+                  </li>
+                </div>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#testimonial">TESTIMONIALS</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+     
+        </nav>
+      
+           
+        
+        <div class="section__container about__container" id="about">
+            <h2 class=" banner-header">Photography For <br>Adventurous Souls & <br>Rebels At Hearts</h2>
+           
+           
+            <div class="readmoreButton"><button >Read More</button></div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+      </header>
+  
+
+    
+
+    <div class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">PORTFOLIO</h2>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="Images/portfolioContainerImageOne.avif" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">VIEW PPORTFOLIO</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Images/portfolioContainerImageThree.avif" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">VIEW PPORTFOLIO</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="Images/portfolioContainerImageTwo.avif" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">VIEW PPORTFOLIO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section__container client__container" id="client">
+        <h2 class="section__header">TESTIMONIALS</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, 
+                  temporibus ad vitae aperiam qui illo saepe amet praesentium totam. Hic.
+                </p>
+                <h4>Testimonial 1</h4>
+            </div>
+                <div>
+                    <img src="Images/testimonialOne.avif" alt="client" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="client__card">
+                    <div>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, 
+                      temporibus ad vitae aperiam qui illo saepe amet praesentium totam. Hic.
+                    </p>
+                    <h4>Testimonial 2</h4>
+                </div>
+                    <div>
+                        <img src="Images/testimonialTwo.avif" alt="client" />
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="client__card">
+                    <div class="client__card__content">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, 
+                      temporibus ad vitae aperiam qui illo saepe amet praesentium totam. Hic.
+                    </p>
+                    <h4>Testimonial 3</h4>
+                </div>
+                    <div>
+                        <img src="Images/testimonialThree.avif" alt="client" />
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <a class="prevTestimonial" onclick="plusSlides(-1)">❮</a>
+          <a class="nextTestimonial" onclick="plusSlides(1)">❯</a>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="section__container gallery__container">
+        <h2 class="section__header">GALLERY</h2>
+        <div class="gallery__grid">
+          <img src="Images/image1.avif" alt="gallery" />
+          <img src="Images/image6.avif" alt="gallery" />
+          <img src="Images/image2.avif" alt="gallery" />
+          <img src="Images/image3.webp" alt="gallery" />
+          <img src="Images/image4.avif" alt="gallery" />
+          <img src="Images/image5.avif" alt="gallery" />
+          
+          <img src="Images/image7.avif" alt="gallery" />
+          <img src="Images/image8.avif" alt="gallery" />
+        </div>
+        <div class="gallery__btn">
+          <button class="btn">VIEW GALLERY</button>
+        </div>
+      </section>
+  
+    <section class="service" id="about">
+      <div class="section__container service__container">
+        
+        <h3 class="section__description">
+            "Do not follow where the path may lead. Go instead where there is no path and leave a trail."
+            
+            
+        </h3>
+        <p class="quote__para">RALPH WALDO EMERSON</p>
+        
+      </div>
+    </section>
+
+    
+
+    
+    
+
+   
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
